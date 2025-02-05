@@ -79,14 +79,7 @@ const Services = () => {
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-                <h2>Team Leader</h2>
-                <p> As a natural leader, I take pride in guiding teams toward success. I am the leader of our entire Software 
-                    Engineering batch, where I coordinate and inspire my peers to excel in both academics and projects. Additionally 
-                    I started and lead the Kylix Development Team.
-                </p>
-                <button>Go</button>
-            </motion.div>
+            
         </motion.div>
     </motion.div>
         
