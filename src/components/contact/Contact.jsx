@@ -98,7 +98,23 @@ const Contact = () => {
             C32.666,7.326,25.339,0,16.333,0z"
             />
           </svg>
-        
+          </motion.div>
+        <motion.form
+          ref={formRef}
+          onSubmit={sendEmail}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 3, duration: 1 }}
+        >
+          <input type="text" required placeholder="Name" name="name"/>
+          <input type="email" required placeholder="Email" name="email"/>
+          <textarea rows={8} placeholder="Message" name="message"/>
+          <button>Submit</button>
+          {error && "Error"}
+          {success && "Success"}
+        </motion.form>
+      </div>
+    </motion.div>
   );
 };
 
