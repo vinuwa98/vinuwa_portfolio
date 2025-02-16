@@ -41,23 +41,7 @@ const Parallax = ({ type }) => {
     }, [controls]);
 
     return (
-        <div
-            className="parallax"
-            ref={ref}
-            style={{
-                background:
-                    type === "services"
-                        ? "linear-gradient(180deg, #1c0327, #43075c)"
-                        : "linear-gradient(180deg, #43075c, #1c0327)"
-            }}
-        >
-            <motion.div className="stars" animate={controls}></motion.div>
-            <motion.h1 style={{ y: yText }}>
-                {type === "services" ? "What am I good at?" : "What am I good at??"}
-            </motion.h1>
-            <motion.div className="mountains"></motion.div>
-            <motion.div style={{ y: yBg }} className="planets"></motion.div>
-        </div>
+        
     );
 };
 
