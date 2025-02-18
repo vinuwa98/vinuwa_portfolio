@@ -64,14 +64,7 @@ const Services = () => {
                 </p>
                 <button>Go</button>
             </motion.div>
-            <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-                <h2>Project Handling</h2>
-                <p> I excel in leading and managing software development projects, ensuring their successful completion from inception 
-                    to deployment. My experience includes spearheading diverse projects such as a University Social Network, a Carbon 
-                    Footprint Calculator, and a Budget Management System.
-                </p>
-                <button>Go</button>
-            </motion.div>
+            
             <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
                 <h2>A/L ICT Tutor</h2>
                 <p> I am passionate about education and enjoy sharing my knowledge with students. I provide Advanced Level ICT tuition and 
