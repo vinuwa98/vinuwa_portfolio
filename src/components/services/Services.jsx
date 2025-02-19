@@ -26,7 +26,35 @@ const Services = () => {
     const isInView = useInView(ref,{margin:"100px"})
 
   return (
-    
+    <motion.div
+        className="services"
+        variants={variants}
+        initial="initial"
+        //animate="animate"
+        //whileInView="animate"
+        ref={ref}
+        animate={isInView && "animate"}
+    >
+        <motion.div className="textContainer" variants={variants}>
+            <p>I have focused on developing
+            <br/>my knowledge
+            </p>
+            <hr/>
+        </motion.div>
+        <motion.div className="titleContainer" variants={variants}>
+            <div className="title">
+                <img src="/Portfolio.jpg" alt="" />
+                <h1>
+                    <motion.b whileHover={{color:"orange"}}>Tech</motion.b> Enthusiast
+                </h1>
+            </div>
+            <div className="title">
+                <h1>
+                    <motion.b whileHover={{color:"orange"}}>Aspiring</motion.b> Software Engineer
+                </h1>
+                <button>WHAT I DO?</button>
+            </div>
+        </motion.div>
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
                 <h2>App Development</h2>
