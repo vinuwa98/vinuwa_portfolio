@@ -1,6 +1,7 @@
 import "./hero.scss";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
+import scroll from '../../assets/scroll.png';
 
 const textVariants = {
   initial: { x: -500, opacity: 0 },
@@ -54,7 +55,7 @@ const Hero = () => {
             <motion.button variants={textVariants}>See the latest Work</motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
-          <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="scroll" />
+          <motion.img variants={textVariants} animate="scrollButton" src={scroll} alt="scroll" />
         </motion.div>
       </div> 
 
