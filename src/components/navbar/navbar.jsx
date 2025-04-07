@@ -1,7 +1,8 @@
 import "./navbar.scss";
 import Sidebar from "../sidebar/Sidebar.jsx"; // Corrected import path
 import { motion } from "framer-motion";
-import githubIcon from '../assets/github.png';
+import githubIcon from '../../assets/github.png';
+
 
 const Navbar = () => {
   return (
