@@ -18,7 +18,7 @@ const Navbar = () => {
         </motion.span>
 
         <div className="social">
-          <a href="https://web.facebook.com/vinuwa.fb/"><img src={`${process.env.PUBLIC_URL}/facebook.png`} alt="Facebook" /></a>
+          <a href="https://web.facebook.com/vinuwa.fb/"><img src="facebook.png" alt="Facebook" /></a>
           <a href="https://www.instagram.com/vinuwa.social/"><img src="instagram.png" alt="Instagram" /></a>
           <a href="https://www.youtube.com/@VinodWarnakulasooriya975/"><img src="youtube.png" alt="YouTube" /></a>
           <a href="https://github.com/vinuwa98"><img src={githubIcon} alt="github" /></a>
