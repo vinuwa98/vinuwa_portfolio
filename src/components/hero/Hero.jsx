@@ -63,7 +63,7 @@ const Hero = () => {
       </motion.div>
 
       <div className="imageContainer">
-        <img src="/hero.png" alt="hero" />
+        <img src="{`${process.env.PUBLIC_URL}/hero.png" alt="hero" />
       </div>
     </div>
   );
